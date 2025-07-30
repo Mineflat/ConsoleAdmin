@@ -101,7 +101,7 @@ namespace ConsoleAdmin.Features
                 secretsTable.AddRow($"[deepskyblue2]{i + 1}[/]", $"[white]{lasppass}[/]", $"{entropySCore}");
                 lasppass = string.Empty; // Сброс пароля, чтоб не валялся в памяти после цикла
             }
-            
+
             // Генерация лайоута с использованием Spectre.Console
             Layout root = new Layout("Secrets")
                 .SplitColumns(
