@@ -72,8 +72,6 @@ namespace ConsoleAdmin.Features
             secretsTable.AddColumn(new TableColumn("Пароль").NoWrap().Centered());
             secretsTable.AddColumn(new TableColumn("Энтропия").NoWrap().Centered());
 
-
-
             string lasppass = string.Empty;
             string entropySCore = string.Empty;
             int entropy = 0;
